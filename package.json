@@ -1,0 +1,44 @@
+{
+  "name": "protractor-cucumber-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for starting automation for Angular web applications using Protractor tests setup with CucumberJS and TypeScript",
+  "main": "launcher.cjs",
+  "scripts": {
+    "test": "protractor ./launcher.cjs",
+    "update": "node node_modules/protractor/bin/webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parbinder/protractor-cucumber-boilerplate.git"
+  },
+  "keywords": [
+    "protractor",
+    "cucumber"
+  ],
+  "author": "Parbinder Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parbinder/protractor-cucumber-boilerplate/issues"
+  },
+  "homepage": "https://github.com/parbinder/protractor-cucumber-boilerplate#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.0.0",
+    "@types/chai": "^4.2.15",
+    "@types/cucumber": "^7.0.0",
+    "@types/figlet": "^1.5.0",
+    "@types/fs-extra": "^9.0.9",
+    "chai": "^4.3.4",
+    "cucumber-html-reporter": "^5.4.0",
+    "fs-extra": "^9.1.0",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^8.0.1",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/ascii-art": "^1.4.0",
+    "ascii-art": "^2.5.0",
+    "codelyzer": "^6.0.1",
+    "figlet": "^1.5.0",
+    "log4js": "^6.3.0"
+  }
+}
