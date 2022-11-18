@@ -5,7 +5,8 @@
   "main": "launcher.cjs",
   "scripts": {
     "test": "protractor ./launcher.cjs",
-    "update": "node node_modules/protractor/bin/webdriver-manager update"
+    "update": "npx webdriver-manager update",
+    "debug": "set DEBUG=1 && protractor ./launcher.cjs"
   },
   "repository": {
     "type": "git",
