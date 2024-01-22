@@ -58,6 +58,7 @@ export class SuperCalculatorHome {
         this.goButton = element(by.css('#gobutton'));
         this.resultText = element(by.xpath('//h2[@class="ng-binding"]'));
         this.operatorDropdown = element(by.model('operator'));
+        let x = 12;
     }
 
     /**
